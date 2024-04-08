@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    width: auto;
+    gap: 50px;
+    padding: 50px;
+
+    input {
+        border: 1px solid grey;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+}
+
+.Send {
+    width: 170px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+
+    .sec {
+        display: flex;
+        justify-content: space-around;
+
+        .boxOne,
+        .boxTwo,
+        .boxthree {
+            border-right: 2px grey solid;
+        }
+    }
+
+}
+
+.mainBox {
+    padding-top: 20px;
+    border: 1px grey solid;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+    .box-age {
+        display: flex;
+        gap: 80px;
+        color: white;
+        border-radius: 30px;
+        background-color: grey;
+    }
+}
